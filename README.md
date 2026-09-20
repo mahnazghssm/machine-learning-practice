@@ -6,48 +6,50 @@ I built this repository to practice machine learning and improve my Python skill
 
 | Folder | What I want to practice |
 | --- | --- |
-| [Statistics](Statistics) | Descriptive statistics, probability, distributions, correlation, and regression |
+| [Statistics](Statistics) | Descriptive statistics, the normal distribution, correlation, and regression basics |
 | [Data_Processing](Data_Processing) | NumPy, Pandas, and preparing data for machine learning |
 | [Data_Visualization](Data_Visualization) | Matplotlib, Seaborn, and visualizing real datasets |
-| [Machine_Learning](Machine_Learning) | Regression, classification, clustering, ensembles, optimization, and neural networks |
+| [Machine_Learning](Machine_Learning) | Probability, optimization, regression, scikit-learn, classification, clustering, ensembles, and neural networks |
 
 ### Project Structure
 
 ```text
 machine-learning-practice/
+├── README.md
+├── .gitignore
 ├── Statistics/
 │   ├── README.md
 │   └── practice.ipynb
 ├── Data_Processing/
 │   ├── README.md
-│   └── practice.ipynb
+│   ├── NumPy/
+│   │   ├── README.md
+│   │   └── practice.ipynb
+│   └── Pandas/
+│       ├── README.md
+│       └── practice.ipynb
 ├── Data_Visualization/
 │   ├── README.md
-│   └── practice.ipynb
+│   ├── Matplotlib/
+│   │   ├── README.md
+│   │   └── practice.ipynb
+│   └── Seaborn/
+│       ├── README.md
+│       └── practice.ipynb
 └── Machine_Learning/
     ├── README.md
-    └── practice.ipynb
+    ├── practice.ipynb
 ```
-
-## Tools
-
-- Python
-- NumPy
-- Pandas
-- Matplotlib
-- Seaborn
-- scikit-learn
-- Jupyter Notebook
 
 ## Requirements
 
 - Python 3.9 or later
+- Jupyter Notebook
 - NumPy
 - Pandas
 - Matplotlib
 - Seaborn
 - scikit-learn
-- Jupyter Notebook
 
 ## Running the Notebooks
 
