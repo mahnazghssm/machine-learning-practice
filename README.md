@@ -38,7 +38,7 @@ machine-learning-practice/
 │       └── practice.ipynb
 └── Machine_Learning/
     ├── README.md
-    ├── practice.ipynb
+    └── practice.ipynb
 ```
 
 ## Requirements
