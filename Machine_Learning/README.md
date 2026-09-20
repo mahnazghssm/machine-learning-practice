@@ -63,10 +63,9 @@ Practice for the machine learning course on [Pytopia](https://www.pytopia.ai/cou
 - Practical implementation in Python
 - Introduction to deep learning
 
-## Notebooks
+## Notebook
 
 - `practice.ipynb`
-- `Scikit_Learn/practice.ipynb`
 
 ## Requirements
 
@@ -78,7 +77,13 @@ Practice for the machine learning course on [Pytopia](https://www.pytopia.ai/cou
 - Seaborn
 - scikit-learn
 
-## Running the Notebooks
+## Running the Notebook
+
+Install the required libraries:
+
+```bash
+pip install numpy pandas matplotlib seaborn scikit-learn jupyter
+```
 
 From the project root, open Jupyter Notebook:
 
@@ -86,17 +91,7 @@ From the project root, open Jupyter Notebook:
 jupyter notebook
 ```
 
-Then open either:
-
-```text
-Machine_Learning/practice.ipynb
-```
-
-or:
-
-```text
-Machine_Learning/Scikit_Learn/practice.ipynb
-```
+Then open `Machine_Learning/practice.ipynb`.
 
 ## License
 
